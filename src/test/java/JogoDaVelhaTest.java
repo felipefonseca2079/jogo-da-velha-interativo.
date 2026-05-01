@@ -4,7 +4,7 @@ import org.junit.jupiter.api.Test;
 public class JogoDaVelhaTest {
     @Test
     void verificarJogador() {
-        Jogador jogador = new Jogador("Pedro", "X");
+        Jogador jogador = new Jogador("Pedro", 'X');
         assertEquals('X',jogador.getSimbolo());
     }
    
